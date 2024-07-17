@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/runtimeverification/python-project-template",
+  "commit": "601d5e2a0e8a98c87dcb1ae694d22d76d0114e01",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "Music League",
+      "project_slug": "music-league",
+      "package_name": "music_league",
+      "version": "0.1.0",
+      "description": "Music League data analysis",
+      "author_name": "Bruce Collie",
+      "author_email": "brucecollie82@gmail.com",
+      "_template": "https://github.com/runtimeverification/python-project-template"
+    }
+  },
+  "directory": null
+}
