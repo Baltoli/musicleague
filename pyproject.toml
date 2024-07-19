@@ -15,6 +15,9 @@ python = "^3.10"
 spotipy = "^2.24.0"
 pandas = "^2.2.2"
 pandas-stubs = "^2.2.2.240603"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
 
 [tool.poetry.group.dev.dependencies]
 autoflake = "*"
@@ -35,6 +38,7 @@ pyupgrade = "*"
 
 [tool.poetry.scripts]
 ranked-playlist = "music_league.ranked_playlist:main"
+pca = "music_league.pca:main"
 
 [tool.isort]
 profile = "black"
